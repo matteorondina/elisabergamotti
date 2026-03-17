@@ -66,8 +66,8 @@
 
   #about { background: var(--white); }
   .about-layout { display: grid; grid-template-columns: 5fr 3fr; gap: 4rem; }
-  .about-text p { color: var(--text-med); font-size: 0.92rem; margin-bottom: 1.2rem; line-height: 1.85; }
-  .about-text p:first-of-type { font-size: 1.05rem; color: var(--text); }
+  .about-text p { color: var(--text-med); font-size: 0.85rem; margin-bottom: 1.2rem; line-height: 1.75; }
+  .about-text p:first-of-type { font-size: 0.85rem; color: var(--text-med); }
   .sidebar-section { margin-bottom: 2.2rem; }
   .sidebar-title { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--black); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--green); display: inline-block; }
   .skill-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
@@ -130,6 +130,8 @@
 
   .exp-desc strong { color: var(--text); font-weight: 600; }
 
+  .skills-fullwidth { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--light-gray); }
+
   @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
   .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
   .reveal.visible { opacity: 1; transform: translateY(0); }
@@ -177,10 +179,10 @@
         </div>
       </div>
       <div class="hero-metrics">
-        <div class="metric"><div class="metric-value">5+</div><div class="metric-label">Years in HRIS</div></div>
-        <div class="metric"><div class="metric-value">200k</div><div class="metric-label">Employees managed</div></div>
-        <div class="metric"><div class="metric-value">10+</div><div class="metric-label">Global processes</div></div>
-        <div class="metric"><div class="metric-value">3</div><div class="metric-label">Languages</div></div>
+        <div class="metric"><div class="metric-value">8+</div><div class="metric-label">Years in HRIS</div></div>
+        <div class="metric"><div class="metric-value">100+</div><div class="metric-label">Global HR Projects</div></div>
+        <div class="metric"><div class="metric-value">200k</div><div class="metric-label">Employees as Target</div></div>
+        <div class="metric"><div class="metric-value">1000+</div><div class="metric-label">HR as Internal Clients</div></div>
       </div>
     </div>
   </div>
@@ -201,29 +203,29 @@
       </div>
       <div class="about-sidebar reveal">
         <div class="sidebar-section">
-          <div class="sidebar-title">Attitudes &amp; Skills</div>
-          <div class="skill-pills">
-            <span class="pill">Simplify Complexity</span>
-            <span class="pill">Lateral Thinking</span>
-            <span class="pill">Problem Solving</span>
-            <span class="pill">Leadership</span>
-            <span class="pill">Communication</span>
-            <span class="pill">Project Management</span>
-            <span class="pill">HR Processes</span>
-            <span class="pill">HCM Tools (SAP HR, SuccessFactors, Workday, BO, BTP)</span>
-            <span class="pill">Ms Viva Tools (Glint, Engage)</span>
-            <span class="pill">Workforce Mng (UKG, SAP TM, Workforce Software)</span>
-          </div>
+          <div class="sidebar-title">Languages</div>
+          <div class="lang-row"><span class="lang-name">English</span><div class="lang-track"><div class="lang-fill" data-w="90" style="width:0%"></div></div></div>
+          <div class="lang-row"><span class="lang-name">French</span><div class="lang-track"><div class="lang-fill" data-w="30" style="width:0%"></div></div></div>
         </div>
         <div class="sidebar-section">
           <div class="sidebar-title">Hobbies &amp; Passions</div>
           <p style="font-size: 0.85rem; color: var(--text-med); line-height: 1.7;">I love traveling, doing outdoor activities and watching fantasy films wrapped in a blanket.</p>
         </div>
-        <div class="sidebar-section">
-          <div class="sidebar-title">Languages</div>
-          <div class="lang-row"><span class="lang-name">English</span><div class="lang-track"><div class="lang-fill" data-w="90" style="width:0%"></div></div></div>
-          <div class="lang-row"><span class="lang-name">French</span><div class="lang-track"><div class="lang-fill" data-w="30" style="width:0%"></div></div></div>
-        </div>
+      </div>
+    </div>
+    <div class="skills-fullwidth reveal">
+      <div class="sidebar-title">Attitudes &amp; Skills</div>
+      <div class="skill-pills">
+        <span class="pill">Simplify Complexity</span>
+        <span class="pill">Lateral Thinking</span>
+        <span class="pill">Problem Solving</span>
+        <span class="pill">Leadership</span>
+        <span class="pill">Communication</span>
+        <span class="pill">Project Management</span>
+        <span class="pill">HR Processes</span>
+        <span class="pill">HCM Tools (SAP HR, SuccessFactors, Workday, BO, BTP)</span>
+        <span class="pill">Ms Viva Tools (Glint, Engage)</span>
+        <span class="pill">Workforce Mng (UKG, SAP TM, Workforce Software)</span>
       </div>
     </div>
   </div>
