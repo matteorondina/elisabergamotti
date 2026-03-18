@@ -1,33 +1,50 @@
-# Elisa Bergamotti — Personal CV Site
+# elisa — ecosystem proposal
 
-A single-page personal CV website built with pure HTML, CSS and JavaScript. No frameworks, no build step — just open `index.html`.
+Proposta strategica per il riposizionamento di **Elisa S.r.l. Società Benefit** come ecosistema di verticali di consulenza.
 
-## Deploy on GitHub Pages
+## Struttura
 
-1. Create a new repository on GitHub (e.g. `elisabergamotti.github.io` for a user site, or any name for a project site)
-2. Upload all files from this folder to the repository
-3. Go to **Settings → Pages**
-4. Under "Source", select **Deploy from a branch**
-5. Choose `main` branch and `/ (root)` folder
-6. Click **Save**
-7. Your site will be live at `https://<username>.github.io/<repo-name>/` within a few minutes
+Single-page application HTML statica con navigazione interna. Nessuna dipendenza, nessun build step.
 
-### Custom domain (optional)
+```
+index.html    ← tutto il sito (HTML + CSS + JS inline)
+```
 
-To use a custom domain like `elisabergamotti.com`:
+## Pagine
 
-1. Add a `CNAME` file to the repo containing your domain name
-2. Configure your domain's DNS to point to GitHub Pages (see [GitHub docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-github-pages))
+| Pagina | Contenuto |
+|--------|-----------|
+| **Home** | Hero animato con slash rotante /ai /marketing /impact |
+| **Chi siamo** | Profili founder (Stefano Storoni, Matteo Rondina) |
+| **/ai** | Verticale AI — augmented intelligence |
+| **/marketing** | Verticale Marketing — marketing partner |
+| **/impact** | Verticale Impact — social impact by design |
+| **Orizzonti** | Verticali future in esplorazione |
 
-## Files
+## Deploy su GitHub Pages
 
-- `index.html` — The complete single-page CV site (self-contained, no external dependencies except Google Fonts)
-- `README.md` — This file
+1. Crea un repository su GitHub (es. `elisa-ecosystem`)
+2. Pusha i file
+3. Vai in **Settings → Pages → Source → Deploy from a branch → main → / (root)**
+4. Il sito sarà live su `https://tuousername.github.io/elisa-ecosystem/`
 
-## Tech
+## Password
 
-- Pure HTML5 / CSS3 / Vanilla JS
-- Google Fonts (Open Sans + Playfair Display)
-- Scroll reveal animations via IntersectionObserver
-- Responsive design (mobile-friendly)
-- Profile photo embedded as base64 (no external image files needed)
+Il sito è protetto da una password leggera (client-side): `elisa2026`
+
+Per cambiarla, modifica la variabile `PASS` nel tag `<script>` di `index.html`.
+
+## Tecnologie
+
+- HTML5 / CSS3 / Vanilla JS
+- Google Fonts (DM Sans + DM Serif Display)
+- Zero dipendenze, zero build
+
+## Note
+
+- Documento riservato — non indicizzare pubblicamente
+- Per evitare indicizzazione, il repo GitHub dovrebbe essere **privato** (GitHub Pages funziona anche con repo privati su piani Pro/Team)
+
+---
+
+Elisa S.r.l. Società Benefit — Fano (PU) — Marzo 2026
