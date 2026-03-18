@@ -23,10 +23,13 @@ index.html    ← tutto il sito (HTML + CSS + JS inline)
 
 ## Deploy su GitHub Pages
 
-1. Crea un repository su GitHub (es. `elisa-ecosystem`)
-2. Pusha i file
-3. Vai in **Settings → Pages → Source → Deploy from a branch → main → / (root)**
-4. Il sito sarà live su `https://tuousername.github.io/elisa-ecosystem/`
+1. Crea un repository su GitHub (es. `elisa-ecosystem`, consiglio **privato**)
+2. Carica `index.html`, `README.md` e `robots.txt`
+3. Dal repo su GitHub, clicca **Add file → Create new file** e crea questi due file:
+   - Nome: `.nojekyll` — contenuto: lascia vuoto → Commit
+   - Nome: `.gitignore` — contenuto: lascia vuoto → Commit
+4. Vai in **Settings → Pages → Source → Deploy from a branch → main → / (root) → Save**
+5. Il sito sarà live su `https://tuousername.github.io/elisa-ecosystem/`
 
 ## Password
 
